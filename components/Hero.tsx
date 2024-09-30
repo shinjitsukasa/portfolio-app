@@ -4,8 +4,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./MagicButton";
-import LitButton from "./LitButton";
-// import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// import LitButton from "./LitButton";
 
 const Hero = () => {
   return (
@@ -60,7 +60,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Sherwin, a Next.js Developer based in Philippines.
+            Hi! I&apos;m Sherwin, a Next.js Developer based in the Philippines.
           </p>
 
           <a href="#about">
@@ -69,7 +69,11 @@ const Hero = () => {
               icon={<FaLocationArrow />}
               position="right"
             />
-						{/* <LitButton /> */}
+						{/* <LitButton 
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
+            /> */}
           </a>
         </div>
       </div>
