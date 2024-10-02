@@ -8,7 +8,6 @@ import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
 
-
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
@@ -54,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["Next.js", "Docker", "Java"];
+  const rightLists = ["SpringBoot", "C", "MySQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -69,7 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "sherwin.macabio009@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -182,7 +181,11 @@ export const BentoGridItem = ({
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie options={defaultOptions} 
+                  height={200} 
+                  width={400} 
+                  
+                />
               </div>
 
               <MagicButton

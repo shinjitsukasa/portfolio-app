@@ -3,6 +3,7 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
+  { name: "Work experience", link: "#experience"}
 ];
 
 export const gridItems = [
@@ -72,11 +73,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Airbnb Clone App",
+    des: "ABNB clone is a platform that allows users to list, discover, and book accommodations online.",
+    img: "/abnbclone.png",
+    iconLists: ["/ts.svg", "next.svg", "/mongodb.svg", "/tail.svg"],
+    link: "https://abnb.foodwarstech.uk",
   },
   {
     id: 2,
@@ -107,33 +108,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Sherwin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sherwin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sherwin is the ideal partner.",
+    name: "Lewis Mitchell",
+    title: "Managing Director of The ExciseMan Wine, Co-Managing Director of Le Vigne Wines & Spirits",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Sherwin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sherwin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sherwin is the ideal partner.",
+    name: "Lewis Mitchell",
+    title: "Managing Director of The ExciseMan Wine, Co-Managing Director of Le Vigne Wines & Spirits",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Sherwin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sherwin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sherwin is the ideal partner.",
+    name: "Lewis Mitchell",
+    title: "Managing Director of The ExciseMan Wine, Co-Managing Director of Le Vigne Wines & Spirits",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Sherwin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sherwin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sherwin is the ideal partner.",
+    name: "Lewis Mitchell",
+    title: "Managing Director of The ExciseMan Wine, Co-Managing Director of Le Vigne Wines & Spirits",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Sherwin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sherwin's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sherwin is the ideal partner.",
+    name: "Lewis Mitchell",
+    title: "Managing Director of The ExciseMan Wine, Co-Managing Director of Le Vigne Wines & Spirits",
   },
 ];
 
@@ -146,21 +147,15 @@ export const companies = [
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Ubuntu",
+    img: "/ubuntu.svg",
+    nameImg: "/ubuntu_name.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "CLOUDFLARE",
+    img: "/cloudflare.svg",
+    nameImg: "/cloudflare_name.png",
   },
   {
     id: 5,
