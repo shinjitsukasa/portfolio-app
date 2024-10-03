@@ -183,14 +183,14 @@ export const workExperience = [
   {
     id: 3,
     title: "Associate Software Engineer | Accenture",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "I program, design, and maintain software applications. I also did support analysis and back-end operations, implementing technology solutions that align with client requirements.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/acn.png",
   },
   {
     id: 4,
     title: "Website Administrator | Le Vigne Wines & Spirits Pte. Ltd.",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "I maintain and modify front-end source code, ensuring smooth operation and functionality. I also handle the website's content structure, organizing categories, tags, and menus for easy navigation. Perform regular updates to WordPress core and plugins, monitor website performance, and troubleshoot any technical issues that arise.",
     className: "md:col-span-2",
     thumbnail: "/le vigne.png",
   },
